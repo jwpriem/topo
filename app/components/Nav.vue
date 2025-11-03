@@ -17,24 +17,24 @@
       Home
     </NuxtLink>
 
-    <NuxtLink
-        to="/provincie-quiz"
-        class="text-slate-600 hover:text-slate-900 transition-colors font-medium"
-    >
-      Provincie Quiz
-    </NuxtLink>
-    <NuxtLink
-        to="/hoofdsteden-quiz"
-        class="text-slate-600 hover:text-slate-900 transition-colors font-medium"
-    >
-      Hoofdsteden Quiz
-    </NuxtLink>
-    <NuxtLink
-        to="/algemene-typequiz"
-        class="text-slate-600 hover:text-slate-900 transition-colors font-medium"
-    >
-      Algemene quiz
-    </NuxtLink>
+<!--    <NuxtLink-->
+<!--        to="/provincie-quiz"-->
+<!--        class="text-slate-600 hover:text-slate-900 transition-colors font-medium"-->
+<!--    >-->
+<!--      Provincie Quiz-->
+<!--    </NuxtLink>-->
+<!--    <NuxtLink-->
+<!--        to="/hoofdsteden-quiz"-->
+<!--        class="text-slate-600 hover:text-slate-900 transition-colors font-medium"-->
+<!--    >-->
+<!--      Hoofdsteden Quiz-->
+<!--    </NuxtLink>-->
+<!--    <NuxtLink-->
+<!--        to="/algemene-typequiz"-->
+<!--        class="text-slate-600 hover:text-slate-900 transition-colors font-medium"-->
+<!--    >-->
+<!--      Algemene quiz-->
+<!--    </NuxtLink>-->
   </div>
 </div>
 </nav>
