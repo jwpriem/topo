@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-[70vh] flex flex-col items-center justify-center px-6">
+  <section class="min-h-[70vh] flex flex-col items-center justify-center px-6 py-6">
     <div class="text-center mb-10">
       <h2 class="text-4xl font-bold text-slate-700">Welkom</h2>
       <p class="mt-3 text-slate-500">Kies een quiz om te starten.</p>
