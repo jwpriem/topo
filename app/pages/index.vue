@@ -8,11 +8,10 @@
     <!-- Tegels -->
     <div class="grid gap-6 sm:grid-cols-2 max-w-3xl w-full">
       <!-- Provincie Quiz -->
-      <NuxtLink
-          to="/provincie-quiz"
-          class="group bg-white rounded-2xl shadow hover:shadow-lg border border-slate-100 p-6 transition transform hover:-translate-y-1 flex flex-col items-center text-center"
-      >
-        <div class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-sky-100 text-sky-600 text-3xl font-bold">
+      <NuxtLink to="/provincie-quiz"
+        class="group bg-white rounded-2xl shadow hover:shadow-lg border border-slate-100 p-6 transition transform hover:-translate-y-1 flex flex-col items-center text-center">
+        <div
+          class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-sky-100 text-sky-600 text-3xl font-bold">
           🗺️
         </div>
         <h3 class="text-xl font-semibold text-slate-800 group-hover:text-sky-600">Provincie Quiz</h3>
@@ -20,26 +19,34 @@
       </NuxtLink>
 
       <!-- Hoofdsteden Quiz -->
-      <NuxtLink
-          to="/hoofdsteden-quiz"
-          class="group bg-white rounded-2xl shadow hover:shadow-lg border border-slate-100 p-6 transition transform hover:-translate-y-1 flex flex-col items-center text-center"
-      >
-        <div class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-emerald-100 text-emerald-600 text-3xl font-bold">
+      <NuxtLink to="/hoofdsteden-quiz"
+        class="group bg-white rounded-2xl shadow hover:shadow-lg border border-slate-100 p-6 transition transform hover:-translate-y-1 flex flex-col items-center text-center">
+        <div
+          class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-emerald-100 text-emerald-600 text-3xl font-bold">
           🧭
         </div>
         <h3 class="text-xl font-semibold text-slate-800 group-hover:text-emerald-600">Hoofdsteden Quiz</h3>
         <p class="mt-2 text-slate-500 text-sm">Weet jij in welke provincie een hoofdstad ligt?</p>
       </NuxtLink>
 
-      <NuxtLink
-          to="/algemene-typequiz"
-          class="group bg-white rounded-2xl shadow hover:shadow-lg border border-slate-100 p-6 transition transform hover:-translate-y-1 flex flex-col items-center text-center"
-      >
-        <div class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-indigo-100 text-indigo-600 text-3xl font-bold">
+      <NuxtLink to="/algemene-typequiz"
+        class="group bg-white rounded-2xl shadow hover:shadow-lg border border-slate-100 p-6 transition transform hover:-translate-y-1 flex flex-col items-center text-center">
+        <div
+          class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-indigo-100 text-indigo-600 text-3xl font-bold">
           🇳🇱
         </div>
         <h3 class="text-xl font-semibold text-slate-800 group-hover:text-indigo-600">Algemene Typquiz</h3>
         <p class="mt-2 text-slate-500 text-sm">Provincies en hoofdsteden door elkaar.</p>
+      </NuxtLink>
+
+      <NuxtLink to="/algemene-typequiz"
+        class="group bg-white rounded-2xl shadow hover:shadow-lg border border-slate-100 p-6 transition transform hover:-translate-y-1 flex flex-col items-center text-center">
+        <div
+          class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-rose-100 text-rose-600 text-3xl font-bold">
+          🏙️
+        </div>
+        <h3 class="text-xl font-semibold text-slate-800 group-hover:text-rose-600">Kaart B Steden</h3>
+        <p class="mt-2 text-slate-500 text-sm">Kies de juiste steden bij de provincie.</p>
       </NuxtLink>
 
     </div>
