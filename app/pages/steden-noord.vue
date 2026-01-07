@@ -161,10 +161,10 @@ const seed = useState('quiz-seed', () => Math.random())
 <template>
   <div
     class="min-h-screen bg-gradient-to-b from-slate-50 to-white flex flex-col items-center justify-center p-4 space-y-6">
-    <ToggleSwitch :model-value="difficult" label="Niveau moeilijk?"
+    <ToggleSwitch :model-value="difficult" label="Extra moeilijk?"
       @toggle-request="requestDifficultyChange(!difficult)" />
-    <Quiz title="Provincies → Steden 🏙️" :key="quizKey" :questions="questions" :seed="seed" :timer-enabled="true"
-      :timer-seconds="12" />
+    <Quiz title="Provincies → Steden (Noord) 🏙️" :key="quizKey" :questions="questions" :seed="seed"
+      :timer-enabled="true" :timer-seconds="12" />
   </div>
 
   <!-- confirm modal -->
@@ -178,9 +178,7 @@ const seed = useState('quiz-seed', () => Math.random())
         De quiz wordt opnieuw gestart.
       </p>
 
-      <div class="flex gap-3">
-
-
+      <div class="flex items-center justify-center gap-3">
         <button
           class="px-4 py-2 rounded-xl bg-emerald-600 text-white text-sm font-medium hover:bg-emerald-700 transition"
           @click="confirmChange">

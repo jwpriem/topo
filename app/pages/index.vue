@@ -39,13 +39,13 @@
         <p class="mt-2 text-slate-500 text-sm">Provincies en hoofdsteden door elkaar.</p>
       </NuxtLink>
 
-      <NuxtLink to="/algemene-typequiz"
+      <NuxtLink to="/steden-noord"
         class="group bg-white rounded-2xl shadow hover:shadow-lg border border-slate-100 p-6 transition transform hover:-translate-y-1 flex flex-col items-center text-center">
         <div
           class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-rose-100 text-rose-600 text-3xl font-bold">
           🏙️
         </div>
-        <h3 class="text-xl font-semibold text-slate-800 group-hover:text-rose-600">Kaart B Steden</h3>
+        <h3 class="text-xl font-semibold text-slate-800 group-hover:text-rose-600">Steden (Noord)</h3>
         <p class="mt-2 text-slate-500 text-sm">Kies de juiste steden bij de provincie.</p>
       </NuxtLink>
 
